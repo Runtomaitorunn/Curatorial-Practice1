@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Scene 1.unity
+    guid: 10af52e6f3c601f4690bbd6548436360
+  - enabled: 1
+    path: Assets/Scenes/DatingApp.unity
+    guid: 9807ec2d16fbcf94d8c9177a7ce8f7b3
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1286b260423d8384082750052425caac, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8b7c5d2b1a9b7f348abca98923c4d151, type: 2}
