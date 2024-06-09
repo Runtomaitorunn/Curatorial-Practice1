@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
   m_Name: HighlighCG
   m_EditorClassIdentifier: 
-  colorMode: 3
-  topLeft: {r: 0.14779866, g: 1, b: 0.75189084, a: 1}
-  topRight: {r: 0.1490196, g: 0.56751233, b: 1, a: 1}
-  bottomLeft: {r: 1, g: 0.24213827, b: 0.3286623, a: 1}
-  bottomRight: {r: 1, g: 0.92626125, b: 0.24313724, a: 1}
+  colorMode: 1
+  topLeft: {r: 1, g: 0.3679244, b: 0.39145628, a: 1}
+  topRight: {r: 1, g: 0.1490196, b: 0.8646832, a: 1}
+  bottomLeft: {r: 1, g: 0.3679244, b: 0.39145628, a: 1}
+  bottomRight: {r: 1, g: 0.1490196, b: 0.8646832, a: 1}
