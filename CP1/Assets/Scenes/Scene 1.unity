@@ -390,6 +390,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 348246462}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlayAudioByName
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Button
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!61 &151179525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -435,6 +447,78 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 466.32715, y: 330.31064}
   m_EdgeRadius: 0
+--- !u!1001 &348246461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 255262448927579609, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 864.3194
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 505.27155
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7002997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098151604037991016, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886411650326452585, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+--- !u!114 &348246462 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5754706354777436935, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+  m_PrefabInstance: {fileID: 348246461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a951f357376771c42bfe7c6e24d79484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &376177672
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +925,7 @@ Animator:
   m_GameObject: {fileID: 1426227789}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f9358d4bca855cc4fb2972e15327e798, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -937,3 +1021,4 @@ SceneRoots:
   - {fileID: 51064724}
   - {fileID: 1247447690}
   - {fileID: 1217362335}
+  - {fileID: 348246461}

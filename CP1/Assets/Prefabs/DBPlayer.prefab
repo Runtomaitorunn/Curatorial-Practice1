@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.3329, y: 0}
+  m_AnchoredPosition: {x: 5.3328857, y: 0}
   m_SizeDelta: {x: 635.0658, y: 264.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5292358876575435018
@@ -316,5 +316,17 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 5754706354777436935, guid: 1ced118d1d7a3b24ab5ad2c42cf58547, type: 3}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlayAudioByName
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Button
             m_BoolArgument: 1
           m_CallState: 2
